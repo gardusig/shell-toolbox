@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#00ce00",
+      "statusBar.noFolderBackground": "#00ce00",
+      "statusBar.debuggingBackground": "#00ce00",
+      "activityBar.background": "#00ce00",
+    },
+    "python.analysis.typeCheckingMode": "standard"
+  }
