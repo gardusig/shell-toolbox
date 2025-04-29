@@ -14,3 +14,16 @@ vscode_bin="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # ─── Aliases & misc ───────────────────────────────────────────
 alias reload="exec zsh -l" # full reload
+
+alias list-python='find . \( \
+  -name "__pycache__" -o \
+  -name ".pytest_cache" -o \
+  -name ".mypy_cache" -o \
+  -name ".venv" -o \
+  -name "venv" -o \
+  -name ".git" -o \
+  -name ".vscode" -o \
+  -name "*.egg-info" -o \
+  -name "build" -o \
+  -name "dist" \
+\) -prune -o -print'
