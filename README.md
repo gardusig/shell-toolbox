@@ -26,6 +26,7 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-## Visual Studio Code
+## Code editor
 
-https://code.visualstudio.com/
+- Visual Studio Code: https://code.visualstudio.com/
+- Cursor
